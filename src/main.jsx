@@ -2,8 +2,9 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 // import "./index.css";
 // import App from "./App.jsx"; //Se reemplazo por RouterProvider.
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './../public/css/blog.css';
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Frontend from "./componentes/Frontend.jsx";
