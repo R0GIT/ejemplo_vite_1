@@ -7,6 +7,7 @@ import Error404 from "./paginas/Error404";
 const Rutas = () => {
   return (
     <>
+        {/* Una manera de hacer ruteo con BrowserRouter */}
         <BrowserRouter>
             <Routes>
                 <Route path="/" element = {<Home />} />

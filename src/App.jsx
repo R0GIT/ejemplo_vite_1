@@ -5,7 +5,8 @@ function App() {
   return (
     // Fragment
     <>
-      <Rutas />
+      {/* Rutas */}
+      {/* <Rutas /> */}
     </>
   );
 }
